@@ -14,7 +14,7 @@ This Python project implements the Builder design pattern to process and combine
 
 ## Usage
 
-1. Place the Excel files you want to process in the "Store" directory.
+1. Place the Excel files you want to process in the "Store" folder.
 2. Ensure the filenames follow the "mm/dd/yyyy" date format.
 3. Run the main script.
 4. The combined data will be saved as "FINAL_PRODUCT.csv" in the project directory.
