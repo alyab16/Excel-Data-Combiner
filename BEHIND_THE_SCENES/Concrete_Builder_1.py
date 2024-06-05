@@ -18,9 +18,6 @@ class ConcreteBuilder1(Builder):
         A fresh builder instance should contain a blank product object, which is
         used in further assembly.
         """
-        # os.chdir(os.path.dirname(os.path.realpath(__file__)))
-        # os.chdir("..")
-        # os.chdir("Store")
         self.mino_df = None
         self.isr_df = None
         self.reset()
