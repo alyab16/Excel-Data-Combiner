@@ -1,9 +1,5 @@
 # Excel-Data-Combiner
 
-Here's a suggested README file for the code you provided:
-
-# Excel Data Combiner
-
 This Python project implements the Builder design pattern to process and combine data from multiple Excel files into a single output file. It checks the date format in the filenames, reads data from specific sheets, merges data from different files, and saves the combined data to a CSV file.
 
 ## Features
