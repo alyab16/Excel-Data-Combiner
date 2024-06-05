@@ -83,11 +83,3 @@ if __name__ == "__main__":
 
     os.chdir(os.path.dirname(os.path.realpath(__file__)))
     product_writer.build_report()
-
-    # print("\n")
-
-    # # Remember, the Builder pattern can be used without a Director class.
-    # print("Custom product: ")
-    # builder.produce_part_a()
-    # builder.produce_part_b()
-    # builder.product.list_parts()
