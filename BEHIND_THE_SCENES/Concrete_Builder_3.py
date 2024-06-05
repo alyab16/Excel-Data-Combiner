@@ -42,7 +42,6 @@ class ConcreteBuilder3(Builder):
         self.reset()
         return product
 
-    # Finds of
     def produce_part_a(self, item_code) -> str:
         lst = []
         returned_value = ''
@@ -56,12 +55,10 @@ class ConcreteBuilder3(Builder):
             returned_value = str('|'.join(str(e) for e in lst))
         return returned_value
 
-    # Add
     def produce_part_b(self) -> None:
         self.isr_df['DELIMITED'] = self.isr_df.COMBINED_MINO.apply(lambda x:
                                                                    self.produce_part_a(x) if x != '' else x)
 
-    # R
     def produce_part_c(self) -> None:
         clmns_lst = self.mino_df.columns.tolist()
         for i in range(len(clmns_lst)):
