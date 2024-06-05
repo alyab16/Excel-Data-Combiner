@@ -33,6 +33,6 @@ The project follows the Builder design pattern, which separates the construction
 - **Concrete Builders (`ConcreteBuilder0`, `ConcreteBuilder1`, `ConcreteBuilder2`, `ConcreteBuilder3`)**: Implement the Builder interface and provide specific implementations for building the product's parts.
 - **Product (`Product1` class)**: Represents the final product being built, which is a DataFrame containing the combined data from the Excel files.
 
-## Contributing
+## Note
 
-Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
+The data used by the code for privacy purposes
