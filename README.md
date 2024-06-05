@@ -35,4 +35,4 @@ The project follows the Builder design pattern, which separates the construction
 
 ## Note
 
-The data used by the code for privacy purposes
+The data used by the code is not included for privacy purposes
