@@ -84,7 +84,4 @@ class ConcreteBuilder0(Builder):
                   '(mm/dd/yyyy) before re-running the code.')
             exit()
 
-        # self._product.parts.update({'Inventory Search Report': pd.DataFrame()})
         os.chdir("..")
-        # self.mino_df = pd.read_excel('Cambrai and Mino Match.xlsx')
-        # self._product.parts.update({'Cambrai Information': self.mino_df})
