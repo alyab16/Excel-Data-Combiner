@@ -18,9 +18,6 @@ class ConcreteBuilder0(Builder):
         A fresh builder instance should contain a blank product object, which is
         used in further assembly.
         """
-        # os.chdir(os.path.dirname(os.path.realpath(__file__)))
-        # os.chdir("..")
-        # os.chdir("Store")
         self.mino_df = None
         self.isr_df = None
         self.reset()
@@ -56,11 +53,6 @@ class ConcreteBuilder0(Builder):
         check = True
         if date is None:
             check = False
-
-        # if date is None:
-        #     date = re.search("(1[0-2]|0?[1-9])-\d{4}-(3[01]|[12][0-9]|0?[1-9])", file_name.replace(" ", "").replace(".xlsx", "").replace("WH41", ""))#mm-yyyy-dd
-        # if date is None:
-        #     date = re.search("\d{4}-(1[0-2]|0?[1-9])-(3[01]|[12][0-9]|0?[1-9])", file_name.replace(" ", "").replace(".xlsx", "").replace("WH41", ""))#yyyy-mm-dd
         return check
 
     def produce_part_b(self) -> None:
